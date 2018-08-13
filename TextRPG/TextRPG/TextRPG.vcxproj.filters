@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{33e8813c-cf41-4ef8-b621-52bd6d0e7e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System">
+      <UniqueIdentifier>{4ffb7335-c0dd-473a-b6f2-a7cbcb5268e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\System\Buffering">
+      <UniqueIdentifier>{4d5078c6-8a90-48b5-99ba-c9984de85e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Character">
+      <UniqueIdentifier>{805c45bf-c339-4920-9df1-1c9d7bb133fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\String">
+      <UniqueIdentifier>{eb7ce55a-d396-4f54-9677-7054d0edcc84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Item">
+      <UniqueIdentifier>{c220724d-3ceb-4ee8-ad5f-2c8d47599e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Store">
+      <UniqueIdentifier>{8bf1d197-b869-443f-b13b-b498c9b5e2a8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleBuffering.h">
+      <Filter>소스 파일\System\Buffering</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginningVillageScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>소스 파일\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGenerationScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sString.h">
+      <Filter>소스 파일\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="StringText.h">
+      <Filter>소스 파일\String</Filter>
+    </ClInclude>
+    <ClInclude Include="StringQuit.h">
+      <Filter>소스 파일\String</Filter>
+    </ClInclude>
+    <ClInclude Include="sParagraph.h">
+      <Filter>소스 파일\String</Filter>
+    </ClInclude>
+    <ClInclude Include="StringBranch.h">
+      <Filter>소스 파일\String</Filter>
+    </ClInclude>
+    <ClInclude Include="StringName.h">
+      <Filter>소스 파일\String</Filter>
+    </ClInclude>
+    <ClInclude Include="StringNext.h">
+      <Filter>소스 파일\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>소스 파일\Scene\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralStore.h">
+      <Filter>소스 파일\Scene\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="ArmsStore.h">
+      <Filter>소스 파일\Scene\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="DefensiveStore.h">
+      <Filter>소스 파일\Scene\Store</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>소스 파일\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonScene.h">
+      <Filter>소스 파일\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StringRandom.h">
+      <Filter>소스 파일\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="ParsingSystem.h">
+      <Filter>소스 파일\System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRPG.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DoubleBuffering.cpp">
+      <Filter>소스 파일\System\Buffering</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginningVillageScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>소스 파일\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerGenerationScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="sString.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="StringText.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="StringQuit.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="sParagraph.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="StringBranch.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="StringName.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="StringNext.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>소스 파일\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>소스 파일\Scene\Store</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralStore.cpp">
+      <Filter>소스 파일\Scene\Store</Filter>
+    </ClCompile>
+    <ClCompile Include="ArmsStore.cpp">
+      <Filter>소스 파일\Scene\Store</Filter>
+    </ClCompile>
+    <ClCompile Include="DefensiveStore.cpp">
+      <Filter>소스 파일\Scene\Store</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonScene.cpp">
+      <Filter>소스 파일\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StringRandom.cpp">
+      <Filter>소스 파일\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="ParsingSystem.cpp">
+      <Filter>소스 파일\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
